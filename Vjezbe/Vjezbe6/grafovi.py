@@ -1,10 +1,11 @@
-import  harmonic_oscillator as oscillator
+import  harmonic_oscillator as osc
 import matplotlib.pyplot as plt
 x0 = 1.0
 v0 = 0.0
 k = 1.0
 m = 1.0
 dt = 0.01
+oscillator = osc.HarmonicOscillator(x0, v0, k, m, dt)
 t_values = [i*dt for i in range(1000)]
 x_values = [oscillator.position(t) for t in t_values]
 v_values = [oscillator.velocity(t) for t in t_values]

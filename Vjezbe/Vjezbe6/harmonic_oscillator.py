@@ -1,3 +1,4 @@
+#vjezbe su originalno predane u roku, kasnije je predano novo rješenje zbog pronađene greške, profesorica odobrila
 import math
 import matplotlib.pyplot as plt
 import numpy as np
